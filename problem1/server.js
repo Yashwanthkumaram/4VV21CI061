@@ -4,7 +4,7 @@ const port = 1170;
 
 app.use(express.json());
 
-app.post('/average', (req, res) => {
+app.post('/numbers', (req, res) => {
     const numbers = req.body;
 
     if (!Array.isArray(numbers) || numbers.some(isNaN)) {
