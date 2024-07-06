@@ -15,14 +15,14 @@ const Filters = ({ filters, setFilters }) => {
         <option value="">Select Category</option>
         <option value="Phone">Phone</option>
         <option value="Laptop">Laptop</option>
-        {/* Add more categories as needed */}
+       
       </select>
 
       <select name="company" value={filters.company} onChange={handleChange}>
         <option value="">Select Company</option>
         <option value="AMZ">Amazon</option>
         <option value="FLP">Flipkart</option>
-        {/* Add more companies as needed */}
+       
       </select>
 
       <input
