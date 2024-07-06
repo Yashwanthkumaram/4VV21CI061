@@ -5,7 +5,7 @@ const ProductDetails = ({ product }) => {
 
   return (
     <div className="product-details">
-      <img src={`https://via.placeholder.com/300`} alt={productName} />
+    
       <h1>{productName}</h1>
       <p>Company: {company}</p>
       <p>Category: {category}</p>
