@@ -15,6 +15,10 @@ const Filters = ({ filters, setFilters }) => {
         <option value="">Select Category</option>
         <option value="Phone">Phone</option>
         <option value="Laptop">Laptop</option>
+     <option value="Phone">Phone</option>
+        <option value="Laptop">Laptop</option>
+     <option value="Phone">Phone</option>
+        <option value="Laptop">Laptop</option>
        
       </select>
 
@@ -22,8 +26,13 @@ const Filters = ({ filters, setFilters }) => {
         <option value="">Select Company</option>
         <option value="AMZ">Amazon</option>
         <option value="FLP">Flipkart</option>
+     <option value="AMZ">Amazon</option>
+        <option value="FLP">Flipkart</option>
+     <option value="AMZ">Amazon</option>
+        <option value="FLP">Flipkart</option>
        
       </select>
+    
 
       <input
         type="number"
